@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Schoolbell';
+    src: url('fotos/Schoolbell-Regular.ttf') format('truetype');
+}
+body {
+    font-family: 'Schoolbell', sans-serif;
+    background-color: #d054bc;
+}
+footer{
+    color:#f5dc78;
+    text-align: center;
+}
+.logo {
+    height: 90px;
+}
+header{
+background: linear-gradient(90deg, #431043, #d34681);
+height: 95px;
+text-align: center;
+padding-top: 10px;
+}
+nav{
+    text-align: center;
+    background-color:#f5dc78;
+    padding: 10px;  
+}
+nav ul{
+    list-style: none;        
+    display: flex;           
+    justify-content: center;
+    justify-content: space-around;   
+}
+nav a {
+    text-decoration: none; /*borra el subrayado*/
+    color: #431043;    
+}
+/*este nav da el efecto de cambio de color cuando el cursor pasa sobre el boton*/
+nav a:hover{
+    color: #f5dc78;
+    background-color: #431043;
+}
+article{
+background-color: #d34681;
+}
