@@ -1,0 +1,13 @@
+<article>
+    <h1>Nosotras</h1>
+    <p>Hola! somos Godoy Lourdes y Sofia Gramajo, nosotras somos estudiantes de primer año de Diseño Multimedial en
+        la Facultad de Artes de la UNLP. Este año en la materia de "Programacion para medios interactivos orientado
+        a web" creamos aplicación web con formato de aventura gráfica interactiva con varios recorridos narrativos y finales alternativos sobre "Aladdin y su lampara magica".</p>
+</article>
+
+<div class="marco">
+    <div class="col-8 col">
+        <img src="fotos/creditos.png" alt="creditos">
+    </div>
+</div>
+

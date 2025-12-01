@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>La lampara de Aladdin</title>
+</head>
+
+<body>
+    <header>
+        <img src="fotos/logo.png" alt="logo de Aladdin" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proceso">Proceso de produccion</a></li>
+                <li><a href="#aventura">Aventura Grafica</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenedor">
+        <section id="inicio" class="tab-content">
+            <div class="col-6 col">
+                <div class="row">
+                    <article>
+                        <h1>Sobre la tematica</h1>
+                        <p>La temática elegida por el profesor para nuestra aventura gráfica fue “Aladdin y su lampara
+                            magica”</p>
+
+                        <div class="tenor-gif-embed" data-postid="27154137" data-share-method="host"
+                            data-aspect-ratio="1.86047" data-width="100%">
+                            <a href="https://tenor.com/view/aladdin-lamp-gif-27154137">Aladdin Lamp GIF</a>
+                            from <a href="https://tenor.com/search/aladdin-gifs">Aladdin GIFs</a>
+                        </div>
+                        <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+                        <h1>¿Quien es Aladdin y su lampara magica?</h1>
+                        <div class="row flex-spaces">
+                            <label class="paper-btn" for="modal-2">Leer más</label>
+                        </div>
+
+                        <input class="modal-state" id="modal-2" type="checkbox">
+                        <div class="modal">
+                            <label class="modal-bg" for="modal-2"></label>
+                            <div class="modal-body">
+                                <p>
+                                    Es uno de los personajes principales de un clasico cuento de Disney 1992, trata sobre un joven pobre que es engañado por un
+                                    brujo
+                                    malvado para que recupere una lámpara mágica de una cueva secreta. Aladino descubre
+                                    que la
+                                    lámpara tiene un genio que cumple sus deseos, y el brujo lo encierra en la cueva.
+                                    Más tarde,
+                                    el brujo engaña a Aladino para que le dé la lámpara, la cual usa para secuestrar a
+                                    la princesa
+                                    y al castillo. Aladino, con la ayuda de un anillo mágico, rescata a su esposa y
+                                    recupera la
+                                    lámpara, derrotando al brujo y viviendo feliz para siempre con la princesa.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="proceso" class="tab-content">
+            <article>
+                <h1>Integrantes del equipo</h1>
+                <div class="wrapper">
+                    <div class="imagen">
+                        <img src="fotos/lourdesanimada.png" alt="">
+                        <div class="content">
+                            <h1>Godoy Lourdes 119044/5</h1>
+                        </div>
+                    </div>
+                    <div class="imagen">
+                        <img src="fotos/sofianimada.jpg" alt="">
+                        <div class="content">
+                            <h1>Gramajo Sofia 119051/4</h1>
+                        </div>
+                    </div>
+                </div>
+                <h1>Proceso de producción</h1>
+                <p>Inicialmente definimos un diagrama de flujo para organizar la estructura narrativa de la historia y
+                    los diferentes
+                    recorridos que puede hacer el jugador.</p>
+                <img src="fotos/diagrama.png" alt="proceso">
+                <p>Seguimos con lo que fue el desarrollo visual, utilizamos tanto imagenes generadas por IA, como
+                    imagenes existentes de google, cuidando que coincidan con los escenarios del proyecto. </p>
+                <p>ACA PODRIAMOS PONER IMAGENES QUE USAMOS EN EL TP</p>
+                <p>Como ultimo, tenemos lo que es el codigo desarrollado en p5.js, utilizamos un sistema de estados que
+                    controla qué escena se muestra en cada momento y a cual te redirige dependiendo la desicion que tome
+                    el jugador. 
+                <p>
+                    <p>ACA NO SE Q PODRIAMOS PONER DEL CODIGO </p>
+
+            </article>
+        </section>
+
+        <section id="aventura" class="tab-content">
+            <article>
+                <h1>¿Que es una aventura grafica?</h1>
+                        <p>
+                            Una aventura grafica, es una narrativa donde el jugador interactúa con el mundo a través de
+                            una
+                            interfaz
+                            gráfica, generalmente con el cursor del mouse. Se caracterizan por un enfoque en la trama y
+                            los
+                            personajes avanzando de forma lineal, y utilizan la interacción con objetos y el entorno
+                            para
+                            resolver
+                            problemas que impulsan la historia hacia adelante. En nuestro caso el protagonista Aladdin
+                            emprende
+                            un
+                            viaje y se enfrenta con diversas amenazas.
+                        </p>
+                <h1>Resultado final</h1>
+                <p>Después de muchas horas llegamos a este resultado:</p>
+                <p>una aventura gráfica interactiva, la cual consta de 4 finales distintos dependiendo de las decisiones
+                    que hayas tomado.</p>
+                <h1>"Aladdin y la lampara magica"</h1>
+                <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+                <div class="row flex-spaces">
+                    <label class="paper-btn margin" for="modal-1">Comenzar</label>
+                </div>
+
+                <input class="modal-state" id="modal-1" type="checkbox">
+                <div class="modal">
+                    <label class="modal-bg" for="modal-1"></label>
+                    <div class="modal-body">
+                        <iframe src="tpfinalparte1/index.html" frameborder="0" width="650" height="490"></iframe>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+    </div>
+</body>

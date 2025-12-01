@@ -1,0 +1,138 @@
+/*subida de la fuente*/
+@font-face {
+    font-family: 'Schoolbell';
+    src: url('fotos/Schoolbell-Regular.ttf') format('truetype');
+}
+body {
+    background-image: url(https://i.pinimg.com/474x/34/fa/a5/34faa51d504af9257ad7a27d30f76a45.jpg); /*textura de fondo*/
+    font-family: 'Schoolbell', sans-serif;
+    font-size: 2vw;
+    color:#f5dc78;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    text-align: center;
+}
+/* defino el tamaño del icono de aladdin para que quede acorde con el header*/
+.logo {
+    height: 90px;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+background: linear-gradient(90deg, #431043, #d34681); /* degrade en la barra de inicio*/
+display: flex;
+justify-content: space-between; 
+align-items: center;
+padding:30px;
+width: 100%;
+box-sizing: border-box;
+}
+
+nav{
+    text-decoration: none;
+    text-align: center;
+    color: #431043;    
+}
+nav ul{
+    list-style: none;     
+    flex-wrap: wrap;    
+    flex-wrap: wrap; 
+    display: flex;           
+    gap: 50px; 
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    color: #f5dc78;
+    font-size: 18px;
+}
+/* cambia de color cuando pasa el cursor por arriba*/
+nav a:hover{
+    color: #d34681;
+}
+#inicio article {
+    background-color: #8a1f5c;   
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 1200px;            
+    margin: 0 auto;              
+}
+#inicio .col-6 {
+    margin: 0 auto;       
+    float: none;          
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+article{
+text-decoration: none;
+background-color: #882a61;
+color:#f5dc78;
+border: 6px solid #d4a243; 
+}
+.contenedor {
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+/* defino tamaño de los gif*/
+.tenor-gif-embed{
+    height: 280px;
+    width: 100px;
+}
+.collapsible {
+    background-color: #882a61;
+    display: flex;
+    margin: 0 0 -1px;
+    padding: .75rem;
+    text-align: center;
+}
+/* toda esta seccion es el estilo que le di a nuestra fotito*/
+.wrapper{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center; 
+}
+.imagen{
+    position: relative;
+    overflow: hidden;
+    width: 50%; 
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s;
+}
+.imagen:hover img{
+    filter: blur(8px);
+}
+.content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.4s;
+}
+.imagen:hover .content{
+    opacity: 1;
+}
+.content h1{
+    font-size: 35px;
+    color: #d34681;
+    text-align: center;
+}
+
